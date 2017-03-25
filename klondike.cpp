@@ -1,8 +1,6 @@
-#include "stacks.h"
-#include "moves.h"
-#include "gameplay.h"
+#include "classes.h"
 #include "options.h"
-
+#include <iostream>
 /*
 Copyright 2017 Daniel L. Liddell
 

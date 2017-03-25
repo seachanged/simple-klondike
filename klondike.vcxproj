@@ -76,19 +76,13 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cards.h" />
-    <ClInclude Include="gameplay.h" />
-    <ClInclude Include="moves.h" />
+    <ClInclude Include="classes.h" />
     <ClInclude Include="options.h" />
-    <ClInclude Include="stacks.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cards.cpp" />
-    <ClCompile Include="gameplay.cpp" />
+    <ClCompile Include="classes.cpp" />
     <ClCompile Include="klondike.cpp" />
-    <ClCompile Include="moves.cpp" />
     <ClCompile Include="options.cpp" />
-    <ClCompile Include="stacks.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
